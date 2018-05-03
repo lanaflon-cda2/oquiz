@@ -1,0 +1,176 @@
+main li {
+	width: 33%;
+	vertical-align: top;
+}
+
+li p:nth-of-type(1){
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.home h1 {
+	font-weight: bold;
+}
+
+.home h2 {
+    color: #0659b3;
+    font-weight: bold;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+.logo {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 24px;
+	color: #0659b3;
+}
+
+nav {
+	text-align: right;
+	color: #0659b3;
+	font-weight: bold;
+}
+
+nav a, nav a:hover {
+	text-decoration: none;
+}
+
+header p {
+	display: inline-block;
+}
+
+footer {
+	text-align: center;
+}
+
+/*Quizz page*/
+
+.intro-quizz {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #c3ebff;
+}
+
+.resultat {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #d1f1d1;
+}
+
+.resultat a {
+	display: block;
+	text-decoration: none;
+}
+
+.erreur-quizz {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: red;
+}
+
+label {
+    display: block;
+}
+
+input {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.quizz-card {
+	width: 30%;
+    display: inline-block;
+    margin-bottom: 20px;
+    vertical-align: top;
+    margin-right: 43px;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+}
+
+.quizz-card:nth-child(3n-6){
+	margin-right: 0px;
+}
+
+.header-card {
+    background-color: #f1f1f1;
+}
+
+.header-card-green {
+    background-color: #d1f1d1;
+}
+
+.header-card-red {
+	background-color: #ff7676;
+}
+
+.question {
+    padding: 10px;
+    display: inline-block;
+}
+
+.body-card {
+    padding: 10px;
+}
+
+.question p:nth-of-type(1){
+	/*display: inline-block;
+    width: 80%;*/
+}
+
+.question p:nth-of-type(2){
+	/*float: right;*/
+	padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.green {
+	background-color: green;
+	display: inline;
+}
+
+.orange {
+	background-color: orange;
+	display: inline;
+}
+
+.red {
+	background-color: red;
+	display: inline;
+}
+
+
+button {
+	display: block;
+	width: 100%;
+    margin: 5px 0;
+}
+
+#quizz-content h1 {
+    font-size: 23px;
+    font-weight: bold;
+    display: inline;
+}
+
+
+#quizz-content h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+#quizz-content span {
+    padding: 4px;
+    background-color: grey;
+    border-radius: 9px;
+    color: white;
+    font-size: 9px;
+}
+
+.tohide {
+	visibility: hidden;
+}

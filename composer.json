@@ -1,0 +1,19 @@
+{
+    "name": "vincent",
+    "description": "Evaluation PHP",
+    "authors": [
+        {
+            "name": "vincent",
+            "email": "vincent.plge@gmail.com"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "^1.2",
+        "league/plates": "^3.3"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Oquizz\\" : "src/"
+        }
+    }
+}
